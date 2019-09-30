@@ -218,7 +218,7 @@ ul {
   background-color: rgb(132, 36, 23);
   position: fixed;
   top: 0;
-  width: 70%;;
+  width: 100%
 }
 
 .navigation-bar li {
@@ -236,11 +236,12 @@ ul {
 /* Change the link color to #111 (black) on hover */
  .navigation-bar li a:hover {
   background-color:black ;
+}
 /*Navigation bar*/
 
 /*RESMONSIVE*/
 
-@media (max-width: 960px) {
+@media(max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
@@ -251,13 +252,21 @@ ul {
   .container {
     width: 500px;
   }
+  .card{
+    display:block;
+
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
-}
+  .card{
+    display:block;
+
+  }
+}=
 
 
 
